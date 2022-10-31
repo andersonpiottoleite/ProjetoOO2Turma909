@@ -6,9 +6,12 @@ public class Dono {
     private String cpf;
     private String email;
 
-
-
     private Endereco endereco;
+
+    public Dono(String nome, Endereco endereco) {
+        this.nome = nome;
+        this.endereco = endereco;
+    }
 
     public String getNome() {
         return nome;
@@ -40,5 +43,15 @@ public class Dono {
 
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
+    }
+
+    @Override
+    public String toString() {
+        return "Dono{" +
+                "nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", email='" + email + '\'' +
+                ", endereco=" + endereco +
+                '}';
     }
 }
