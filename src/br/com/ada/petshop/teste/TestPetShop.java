@@ -3,11 +3,13 @@ package br.com.ada.petshop.teste;
 import br.com.ada.petshop.businessobject.Internacoes;
 import br.com.ada.petshop.modelo.Cachorro;
 
-public class TestPetShop {
+import java.util.Scanner;
 
-    public static void main(String[] args) {
-        /* criando/instanciando objetos e pegando o endereço deles na memoria
-        esse endereço é atributo a variavel
+public class TestPetShop{
+
+    public static void main(String[] args){
+        /* criando/instanciando objetos e pegando o endere?o deles na memoria
+        esse endere?o ? atributo a variavel
         estamos usando varios construtores para isso*/
 
         Cachorro cachorro = new Cachorro("Doguinho");
@@ -19,7 +21,7 @@ public class TestPetShop {
         cachorro1.setRaca("Vira lata caramelo");
         cachorro1.setIdade(1);
 
-        System.out.println("Idade do " + cachorro1.getNome()+ " e " + cachorro1.getIdade());
+        System.out.println("Idade do " + cachorro1.getNome()+ " � " + cachorro1.getIdade());
 
         Cachorro cachorro2 = new Cachorro();
         cachorro2.setNome("Spike");
@@ -33,11 +35,11 @@ public class TestPetShop {
         cachorro3.setIdade(10);
         cachorro3.setEstaDoente(true);
 
-        System.out.println("Idade do " + cachorro2.getNome()+ " e " + cachorro2.getIdade());
+        System.out.println("Idade do " + cachorro2.getNome()+ " � " + cachorro2.getIdade());
 
         System.out.println("-----------------IMPRIMINDO OS DOGS--------------------");
 
-        // chama o toString ao realizar a impressão
+        // chama o toString ao realizar a impress?o
         System.out.println(cachorro);
         System.out.println(cachorro0);
         System.out.println(cachorro1);
@@ -49,7 +51,5 @@ public class TestPetShop {
         internacoes.internar(cachorro3);
 
         internacoes.mostraCachorrosInternados();
-
-    }
-
+        }
 }

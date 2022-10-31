@@ -9,12 +9,14 @@ public class Cachorro {
     private int idade;
     private boolean estaDoente;
 
+    private Dono dono;
+
     /* atributo estatico, que pertence somente a classe
     havera somente uma instancia, compartilhada entre os objetos
      */
     private static int contador;
 
-    // construtores, que podem ser usados para a criação de objetos
+    // construtores, que podem ser usados para a cria??o de objetos
     public Cachorro(){
         contador++;
     }
@@ -33,7 +35,7 @@ public class Cachorro {
 
     // metodos, o que uma classe faz...
 
-    // metodos de configuração - setam os valores - setters dos atributos
+    // metodos de configura??o - setam os valores - setters dos atributos
 
     public void setEstaDoente(boolean estaDoente) {
         this.estaDoente = estaDoente;
@@ -47,12 +49,12 @@ public class Cachorro {
         this.raca = raca;
     }
 
-    // encapsulando regra de negócio no setter
+    // encapsulando regra de neg?cio no setter
     public void setIdade(int idade) {
         if(idade < 0){
-            System.err.println("Cachorro não pode ter idade negativa");
-        } else if(idade > 29) {
-            System.err.println("Não é permitido cachorros com idades superiores a 29 anos");
+            System.err.println("Cachorro n?o pode ter idade negativa");
+        } else if(idade > 30) {
+            System.err.println("N?o ? permitido cachorros com idades superiores a 29 anos");
         } else {
             this.idade = idade;
         }
@@ -80,8 +82,19 @@ public class Cachorro {
         return idade;
     }
 
+    public Dono getDono() {
+        return dono;
+    }
 
-    // metodo usado para imprimir mais informações (estado) sobre os valores dos atributos do objeto
+    public void setDono(Dono dono) {
+        this.dono = dono;
+    }
+
+    public static void setContador(int contador) {
+        Cachorro.contador = contador;
+    }
+
+    // metodo usado para imprimir mais informa??es (estado) sobre os valores dos atributos do objeto
     @Override
     public String toString() {
         return "Cachorro{" +
