@@ -6,6 +6,7 @@ public class Dono {
     private String cpf;
     private String email;
 
+    // composição, um dono é composto por um endereço
     private Endereco endereco;
 
     public Dono(String nome, Endereco endereco) {

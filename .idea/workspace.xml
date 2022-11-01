@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="evolucao com mais classes">
+    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="evolucao com mais classes, criacao de objetos e associacoes">
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/CadastroDinamicoDeCaes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Dono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Dono.java" afterDir="false" />
@@ -101,7 +103,7 @@
       <workItem from="1667239586421" duration="210000" />
       <workItem from="1667239814554" duration="1299000" />
       <workItem from="1667246027428" duration="1972000" />
-      <workItem from="1667251185261" duration="7187000" />
+      <workItem from="1667251185261" duration="14154000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -124,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667258206719</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="evolucao com mais classes, criacao de objetos e associacoes">
+      <created>1667259562735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667259562735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +154,24 @@
     <MESSAGE value="codigo inicial do petshop" />
     <MESSAGE value="alguns comentartio para ajudar no entendimento do codigo" />
     <MESSAGE value="evolucao com mais classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="evolucao com mais classes" />
+    <MESSAGE value="evolucao com mais classes, criacao de objetos e associacoes" />
+    <option name="LAST_COMMIT_MESSAGE" value="evolucao com mais classes, criacao de objetos e associacoes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,5 +1,6 @@
 package br.com.ada.petshop.teste;
 
+import br.com.ada.petshop.businessobject.CachorroRepository;
 import br.com.ada.petshop.businessobject.Internacoes;
 import br.com.ada.petshop.modelo.Cachorro;
 import br.com.ada.petshop.modelo.Dono;
@@ -23,12 +24,10 @@ public class TestPetShop{
 
         Dono dono1 = new Dono("Caterine", endereco);
 
-        Cachorro cachorro1 = new Cachorro(dono1, false);
+        Cachorro cachorro1 = new Cachorro(dono1);
         cachorro1.setNome("Cacau");
         cachorro1.setRaca("Vira lata caramelo");
         cachorro1.setIdade(1);
-
-        System.out.println("Idade do " + cachorro1.getNome()+ " é " + cachorro1.getIdade());
 
         Endereco endereco2 = new Endereco();
         endereco2.setRua("Rua dos limoes");
@@ -38,7 +37,7 @@ public class TestPetShop{
 
         Dono dono2 = new Dono("Maria", endereco2);
 
-        Cachorro cachorro2 = new Cachorro(dono2, false);
+        Cachorro cachorro2 = new Cachorro(dono2);
         cachorro2.setNome("Eddie");
         cachorro2.setRaca("Caramelo");
         cachorro2.setIdade(15);
@@ -52,25 +51,22 @@ public class TestPetShop{
 
         Dono dono3 = new Dono("Paula", endereco3);
 
-        Cachorro cachorro3 = new Cachorro(dono3, true);
+        Cachorro cachorro3 = new Cachorro(dono3);
         cachorro3.setNome("Bob");
         cachorro3.setRaca("Pastor Alemao");
         cachorro3.setIdade(10);
         cachorro3.setEstaDoente(true);
 
-        System.out.println("Idade do " + cachorro2.getNome()+ " é " + cachorro2.getIdade());
-
-        System.out.println("-----------------IMPRIMINDO OS DOGS--------------------");
-
-        // chama o toString ao realizar a impress?o
-        System.out.println(cachorro1);
-        System.out.println(cachorro2);
-        System.out.println(cachorro3);
+        CachorroRepository repository = new CachorroRepository();
+        repository.cadastra(cachorro1);
+        repository.cadastra(cachorro2);
+        repository.cadastra(cachorro3);
+        repository.imprimeCachorrosCadastrados();
 
         Internacoes internacoes  = new Internacoes();
         internacoes.internar(cachorro2);
         internacoes.internar(cachorro3);
 
         internacoes.mostraCachorrosInternados();
-        }
+    }
 }

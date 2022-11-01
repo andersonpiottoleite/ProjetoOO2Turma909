@@ -9,6 +9,7 @@ public class Cachorro {
     private int idade;
     private boolean estaDoente;
 
+    // composição, um cachorro é composto por um dono
     private Dono dono;
 
     /* atributo estatico, que pertence somente a classe
@@ -17,9 +18,8 @@ public class Cachorro {
 
     // construtores, que podem ser usados para a cria??o de objetos
 
-    public Cachorro(Dono dono, boolean estaDoente){
+    public Cachorro(Dono dono){
         this.dono = dono;
-        this.estaDoente = estaDoente;
     }
 
     // metodos, o que uma classe faz...
