@@ -7,7 +7,7 @@ import br.com.ada.petshop.modelo.Endereco;
 
 import java.util.Scanner;
 
-public class CadastroDinamicoDeCaes {
+public class TesteDinamicoPetShop {
 
     private static final CachorroRepository cachorroRepository = new CachorroRepository();
 

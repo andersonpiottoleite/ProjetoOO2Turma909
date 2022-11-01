@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="evolucao com mais classes, criacao de objetos e associacoes">
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/CadastroDinamicoDeCaes.java" afterDir="false" />
+    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="evolucao com repository e classe de cadastro dinamico">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Dono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Dono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/CadastroDinamicoDeCaes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteDinamicoPetShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +52,8 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.br.com.ada.petshop.teste.TestPetShop">
-    <configuration name="CadastroDinamicoDeCaes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.teste.CadastroDinamicoDeCaes" />
+    <configuration name="TestPetShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.teste.TestPetShop" />
       <module name="ProjetoOO2Turma909" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.ada.petshop.teste.TestPetShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.teste.TestPetShop" />
+    <configuration name="TesteDinamicoPetShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.teste.TesteDinamicoPetShop" />
       <module name="ProjetoOO2Turma909" />
       <extension name="coverage">
         <pattern>
@@ -86,7 +81,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.br.com.ada.petshop.teste.TestPetShop" />
-        <item itemvalue="Application.CadastroDinamicoDeCaes" />
+        <item itemvalue="Application.TesteDinamicoPetShop" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +98,7 @@
       <workItem from="1667239586421" duration="210000" />
       <workItem from="1667239814554" duration="1299000" />
       <workItem from="1667246027428" duration="1972000" />
-      <workItem from="1667251185261" duration="14154000" />
+      <workItem from="1667251185261" duration="14264000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -133,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667259562735</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="evolucao com repository e classe de cadastro dinamico">
+      <created>1667267106288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667267106288</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +157,8 @@
     <MESSAGE value="alguns comentartio para ajudar no entendimento do codigo" />
     <MESSAGE value="evolucao com mais classes" />
     <MESSAGE value="evolucao com mais classes, criacao de objetos e associacoes" />
-    <option name="LAST_COMMIT_MESSAGE" value="evolucao com mais classes, criacao de objetos e associacoes" />
+    <MESSAGE value="evolucao com repository e classe de cadastro dinamico" />
+    <option name="LAST_COMMIT_MESSAGE" value="evolucao com repository e classe de cadastro dinamico" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
