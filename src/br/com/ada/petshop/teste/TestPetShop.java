@@ -57,11 +57,21 @@ public class TestPetShop{
         cachorro3.setIdade(10);
         cachorro3.setEstaDoente(true);
 
-        CachorroRepository repository = new CachorroRepository();
-        repository.cadastra(cachorro1);
-        repository.cadastra(cachorro2);
-        repository.cadastra(cachorro3);
-        repository.imprimeCachorrosCadastrados();
+        Cachorro cachorro4 = new Cachorro(dono3);
+        cachorro4.setNome("Toro");
+        cachorro4.setRaca("Rotwhaer");
+        cachorro4.setIdade(10);
+        cachorro4.setEstaDoente(true);
+
+        CachorroRepository repository1 = new CachorroRepository();
+        repository1.cadastra(cachorro1);
+        repository1.cadastra(cachorro2);
+
+        CachorroRepository repository2 = new CachorroRepository();
+        repository2.cadastra(cachorro3);
+        repository2.cadastra(cachorro4);
+
+        repository2.imprimeCachorrosCadastrados();
 
         Internacoes internacoes  = new Internacoes();
         internacoes.internar(cachorro2);

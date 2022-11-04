@@ -2,6 +2,8 @@ package br.com.ada.petshop.modelo;
 
 public class Endereco {
 
+    private int id;
+
     private String rua;
     private String numero;
     private String cep;
@@ -16,6 +18,16 @@ public class Endereco {
         this.cep = cep;
         this.bairro = bairro;
         this.estado = estado;
+    }
+
+    public void setId(int id) {
+        if (this.id == 0){
+            this.id = id;
+        }
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getRua() {
@@ -61,7 +73,8 @@ public class Endereco {
     @Override
     public String toString() {
         return "Endereco{" +
-                "rua='" + rua + '\'' +
+                "id=" + id +
+                ", rua='" + rua + '\'' +
                 ", numero='" + numero + '\'' +
                 ", cep='" + cep + '\'' +
                 ", bairro='" + bairro + '\'' +

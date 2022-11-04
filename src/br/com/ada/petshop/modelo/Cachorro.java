@@ -2,6 +2,8 @@ package br.com.ada.petshop.modelo;
 
 public class Cachorro {
 
+    private int id;
+
     // atributos, o que um classe tem
     private String nome;
     private String raca;
@@ -36,6 +38,10 @@ public class Cachorro {
 
     public void setRaca(String raca) {
         this.raca = raca;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     // encapsulando regra de neg?cio no setter
@@ -75,12 +81,18 @@ public class Cachorro {
         return dono;
     }
 
+    public int getId() {
+        return id;
+    }
+
     // metodo usado para imprimir mais informa??es (estado) sobre os valores dos atributos do objeto
+
 
     @Override
     public String toString() {
         return "Cachorro{" +
-                "nome='" + nome + '\'' +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
                 ", raca='" + raca + '\'' +
                 ", idade=" + idade +
                 ", estaDoente=" + estaDoente +
