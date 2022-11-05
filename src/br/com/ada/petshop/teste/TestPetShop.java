@@ -66,12 +66,10 @@ public class TestPetShop{
         CachorroRepository repository1 = new CachorroRepository();
         repository1.cadastra(cachorro1);
         repository1.cadastra(cachorro2);
+        repository1.cadastra(cachorro3);
+        repository1.cadastra(cachorro4);
 
-        CachorroRepository repository2 = new CachorroRepository();
-        repository2.cadastra(cachorro3);
-        repository2.cadastra(cachorro4);
-
-        repository2.imprimeCachorrosCadastrados();
+        repository1.imprimeCachorrosCadastrados();
 
         Internacoes internacoes  = new Internacoes();
         internacoes.internar(cachorro2);
