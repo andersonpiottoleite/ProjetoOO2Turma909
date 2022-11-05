@@ -34,8 +34,8 @@ public class TesteHerancaPolimorfismo {
         restaurarAsaAve.restauraAsaAve(sabia);
         restaurarAsaAve.restauraAsaAve(pinguim);
 
-        // polimorfismo... posso passar qualquer objeto filho de AvesQueVoam
         CampeonatoAvesVoadoras campeonatoAvesVoadoras = new CampeonatoAvesVoadoras();
+        // polimorfismo... posso passar qualquer objeto filho de AvesQueVoam
         campeonatoAvesVoadoras.largada(papagaio);
         campeonatoAvesVoadoras.largada(beijaFlor);
         campeonatoAvesVoadoras.largada(sabia);
