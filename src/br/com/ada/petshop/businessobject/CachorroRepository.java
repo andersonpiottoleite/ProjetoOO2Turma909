@@ -9,6 +9,8 @@ public class CachorroRepository {
     // count para controlar a posição dos cachorros cadastrados
     private static int count = 0;
     private static Cachorro[] cachorrosCadastrados = new Cachorro[100];
+
+    // contador estatico para atribuir os ids...
     private static int sequence = 1;
 
     public void cadastra(Cachorro cachorro){
