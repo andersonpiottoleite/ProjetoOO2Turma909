@@ -6,7 +6,7 @@ public class Cachorro {
 
     // atributos, o que um classe tem
     private String nome;
-    private String raca;
+    private String raca; // criar Enum de raça especifica para cachorro?
 
     private int idade;
     private boolean estaDoente;

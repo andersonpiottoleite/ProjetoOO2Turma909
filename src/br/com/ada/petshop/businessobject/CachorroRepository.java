@@ -8,6 +8,7 @@ public class CachorroRepository {
 
     // count para controlar a posição dos cachorros cadastrados
     private static int count = 0;
+    // array estatico, só havera esse array na memoria, ele será compartilhado entre os objetos
     private static Cachorro[] cachorrosCadastrados = new Cachorro[100];
 
     // contador estatico para atribuir os ids...
