@@ -6,4 +6,6 @@ public abstract class Ave { // classe abstrata (não pode ser instanciada), não p
     public void andar(){
         System.out.println("ave andando...");
     }
+
+    public abstract void metodoAbstrato(String s); // não tem corpo
 }

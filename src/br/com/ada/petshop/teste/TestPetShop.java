@@ -1,17 +1,15 @@
 package br.com.ada.petshop.teste;
 
-import br.com.ada.petshop.businessobject.CachorroRepository;
+import br.com.ada.petshop.repository.CachorroRepository;
 import br.com.ada.petshop.businessobject.Internacoes;
 import br.com.ada.petshop.modelo.Cachorro;
 import br.com.ada.petshop.modelo.Dono;
 import br.com.ada.petshop.modelo.Endereco;
 
-import java.time.LocalDate;
-import java.util.Scanner;
-
 public class TestPetShop{
 
     public static void main(String[] args){
+
         /* criando/instanciando objetos e pegando o endere?o deles na memoria
         esse endere?o ? atributo a variavel
         estamos usando varios construtores para isso*/

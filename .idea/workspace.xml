@@ -4,10 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="exemplos de heranca e polimorfismo">
+    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="comentarios para ajudar no entendimento do static">
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/enumeracao/EnumRacaCachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/enumeracao/EnumRacaGato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/AvesBonitas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/ClasseSemHeranca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Gato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/CachorroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/Ave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/Ave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/AvesQueVoam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/AvesQueVoam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/BeijaFlor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/BeijaFlor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/Papagaio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/Papagaio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/Pinguim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/Pinguim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/RestaurarAsaAve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/RestaurarAsaAve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/Sabia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/Sabia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/TesteHerancaPolimorfismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/heranca/TesteHerancaPolimorfismo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteDinamicoPetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteDinamicoPetShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -52,7 +69,12 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TesteDinamicoPetShop">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.ada.petshop.enumeracao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TesteHerancaPolimorfismo">
     <configuration name="TestPetShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.teste.TestPetShop" />
       <module name="ProjetoOO2Turma909" />
@@ -94,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteHerancaPolimorfismo" />
         <item itemvalue="Application.TestPetShop" />
         <item itemvalue="Application.TesteDinamicoPetShop" />
       </list>
@@ -114,7 +137,8 @@
       <workItem from="1667246027428" duration="1972000" />
       <workItem from="1667251185261" duration="15616000" />
       <workItem from="1667599060494" duration="16022000" />
-      <workItem from="1667842714301" duration="992000" />
+      <workItem from="1667842714301" duration="3349000" />
+      <workItem from="1667857202261" duration="6353000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -186,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667613821882</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="comentarios para ajudar no entendimento do static">
+      <created>1667843765288</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667843765288</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,25 +242,16 @@
     <MESSAGE value="evolucao com repository e classe de cadastro dinamico" />
     <MESSAGE value="evolucao com cadastro de ids dinamicos" />
     <MESSAGE value="exemplos de heranca e polimorfismo" />
-    <option name="LAST_COMMIT_MESSAGE" value="exemplos de heranca e polimorfismo" />
+    <MESSAGE value="comentarios para ajudar no entendimento do static" />
+    <option name="LAST_COMMIT_MESSAGE" value="comentarios para ajudar no entendimento do static" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CachorroRepository.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/Internacoes.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

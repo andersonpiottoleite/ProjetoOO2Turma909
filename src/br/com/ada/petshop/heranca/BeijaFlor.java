@@ -11,4 +11,9 @@ public class BeijaFlor extends AvesQueVoam{ // filha de AvesQueVoam, é uma AvesQ
     public void voando(){
         System.out.println("Voando modo beija flor....");
     }
+
+    @Override
+    public void metodoAbstrato(String s) {
+
+    }
 }

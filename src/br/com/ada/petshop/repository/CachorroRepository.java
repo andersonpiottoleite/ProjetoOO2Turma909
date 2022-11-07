@@ -1,4 +1,4 @@
-package br.com.ada.petshop.businessobject;
+package br.com.ada.petshop.repository;
 
 import br.com.ada.petshop.modelo.Cachorro;
 

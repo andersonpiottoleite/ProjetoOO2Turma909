@@ -10,6 +10,7 @@ public abstract class AvesQueVoam extends Ave{ // classe abstrata (não pode ser 
         System.out.println("chamando construtor da Ave");
     }
 
+
     public void voando(){
         System.out.println("Voando....");
     }

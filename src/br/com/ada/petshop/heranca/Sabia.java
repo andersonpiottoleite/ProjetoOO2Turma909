@@ -7,4 +7,9 @@ public class Sabia extends AvesQueVoam{ // filha de AvesQueVoam, é uma AvesQueVo
     public void assubiar(){
         System.out.println("Assubiando");
     }
+
+    @Override
+    public void metodoAbstrato(String s) {
+
+    }
 }

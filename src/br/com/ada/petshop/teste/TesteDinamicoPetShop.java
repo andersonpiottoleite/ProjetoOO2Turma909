@@ -1,6 +1,6 @@
 package br.com.ada.petshop.teste;
 
-import br.com.ada.petshop.businessobject.CachorroRepository;
+import br.com.ada.petshop.repository.CachorroRepository;
 import br.com.ada.petshop.modelo.Cachorro;
 import br.com.ada.petshop.modelo.Dono;
 import br.com.ada.petshop.modelo.Endereco;

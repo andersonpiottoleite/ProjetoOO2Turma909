@@ -1,10 +1,9 @@
 package br.com.ada.petshop.heranca;
 
-import br.com.ada.petshop.modelo.Cachorro;
-
 public class TesteHerancaPolimorfismo {
 
     public static void main(String[] args) {
+
         // usando polimorfismo, posso me referenciar a Papagaio como:
         // - Papagaio
         // - AvesQueVoam
@@ -29,10 +28,10 @@ public class TesteHerancaPolimorfismo {
 
         RestaurarAsaAve restaurarAsaAve = new RestaurarAsaAve();
         // polimorfismo... posso passar qualquer objeto filho de Ave
-        restaurarAsaAve.restauraAsaAve(papagaio);
-        restaurarAsaAve.restauraAsaAve(beijaFlor);
-        restaurarAsaAve.restauraAsaAve(sabia);
-        restaurarAsaAve.restauraAsaAve(pinguim);
+        restaurarAsaAve.restauraAsa(papagaio);
+        restaurarAsaAve.restauraAsa(beijaFlor);
+        restaurarAsaAve.restauraAsa(sabia);
+        restaurarAsaAve.restauraAsa(pinguim);
 
         CampeonatoAvesVoadoras campeonatoAvesVoadoras = new CampeonatoAvesVoadoras();
         // polimorfismo... posso passar qualquer objeto filho de AvesQueVoam
