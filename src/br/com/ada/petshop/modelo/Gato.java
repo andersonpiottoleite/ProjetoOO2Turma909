@@ -21,8 +21,8 @@ public class Gato extends Animal{
 
     @Override
     public String toString() {
-        return "Gato{" +
+        return "Gato: " +
                 "raca=" + raca +
-                '}';
+                super.toString();
     }
 }

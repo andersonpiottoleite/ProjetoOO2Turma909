@@ -19,10 +19,9 @@ public class Cachorro extends Animal{
         this.raca = raca;
     }
 
-    @Override
     public String toString() {
-        return "Cachorro{" +
+        return "Cachorro: " +
                 "raca=" + raca +
-                '}';
+                super.toString();
     }
 }

@@ -1,6 +1,7 @@
 package br.com.ada.petshop.teste;
 
-import br.com.ada.petshop.repository.CachorroRepository;
+import br.com.ada.petshop.enumeracao.EnumRacaCachorro;
+import br.com.ada.petshop.repository.AnimalRepository;
 import br.com.ada.petshop.modelo.Cachorro;
 import br.com.ada.petshop.modelo.Dono;
 import br.com.ada.petshop.modelo.Endereco;
@@ -9,7 +10,7 @@ import java.util.Scanner;
 
 public class TesteDinamicoPetShop {
 
-    private static final CachorroRepository cachorroRepository = new CachorroRepository();
+    private static final AnimalRepository cachorroRepository = new AnimalRepository();
 
     public static void main(String[] args) {
         final int SAIR_DO_SISTEMA = 4;
@@ -29,7 +30,7 @@ public class TesteDinamicoPetShop {
                     cadastra(scanner, cachorroRepository);
                     break;
                 case 2:
-                    cachorroRepository.imprimeCachorrosCadastrados();
+                    cachorroRepository.imprimeAnimaisCadastrados();
                     break;
                 case 3:
                     cachorroRepository.limpaCadastro();
@@ -43,7 +44,7 @@ public class TesteDinamicoPetShop {
 
         }while (opcaoSelecionada != SAIR_DO_SISTEMA);
     }
-    private static void cadastra(Scanner scanner, CachorroRepository cachorroRepository) {
+    private static void cadastra(Scanner scanner, AnimalRepository cachorroRepository) {
         System.out.println("######## CADASTRO DE CÃES ########");
         System.out.println("######## Informe seus dados pessoais... ########");
 
@@ -89,7 +90,7 @@ public class TesteDinamicoPetShop {
 
         Cachorro cachorro = new Cachorro(dono);
         cachorro.setNome(nomeCachorro);
-        cachorro.setRaca(raca);
+        cachorro.setRaca(EnumRacaCachorro.getRacaByNome(raca));
         cachorro.setIdade(idade);
 
         cachorroRepository.cadastra(cachorro);

@@ -1,10 +1,13 @@
 package br.com.ada.petshop.modelo;
 
+import br.com.ada.petshop.enumeracao.TipoAnimalEnum;
+
 public abstract class Animal {
 
-    private int id;
-
     // atributos, o que um classe tem
+    private int id;
+    private TipoAnimalEnum tipoAnimal;
+
     private String nome;
     private int idade;
     private boolean estaDoente;
@@ -53,6 +56,10 @@ public abstract class Animal {
         this.dono = dono;
     }
 
+    public void setTipoAnimal(TipoAnimalEnum tipoAnimal) {
+        this.tipoAnimal = tipoAnimal;
+    }
+
     // metodos de consulta - consultam os valores dos atributos
 
     public boolean isEstaDoente() {
@@ -75,13 +82,18 @@ public abstract class Animal {
         return id;
     }
 
+    public TipoAnimalEnum getTipoAnimal() {
+        return tipoAnimal;
+    }
+
     // metodo usado para imprimir mais informa??es (estado) sobre os valores dos atributos do objeto
 
 
     @Override
     public String toString() {
-        return "Cachorro{" +
+        return "{" +
                 "id=" + id +
+                ", tipoAnimal=" + tipoAnimal +
                 ", nome='" + nome + '\'' +
                 ", idade=" + idade +
                 ", estaDoente=" + estaDoente +

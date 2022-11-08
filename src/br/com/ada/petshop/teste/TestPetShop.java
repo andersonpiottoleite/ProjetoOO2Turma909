@@ -1,6 +1,10 @@
 package br.com.ada.petshop.teste;
 
-import br.com.ada.petshop.repository.CachorroRepository;
+import br.com.ada.petshop.enumeracao.EnumRacaCachorro;
+import br.com.ada.petshop.enumeracao.EnumRacaGato;
+import br.com.ada.petshop.enumeracao.TipoAnimalEnum;
+import br.com.ada.petshop.modelo.Gato;
+import br.com.ada.petshop.repository.AnimalRepository;
 import br.com.ada.petshop.businessobject.Internacoes;
 import br.com.ada.petshop.modelo.Cachorro;
 import br.com.ada.petshop.modelo.Dono;
@@ -24,7 +28,7 @@ public class TestPetShop{
 
         Cachorro cachorro1 = new Cachorro(dono1);
         cachorro1.setNome("Cacau");
-        cachorro1.setRaca("Vira lata caramelo");
+        cachorro1.setRaca(EnumRacaCachorro.PASTOR_ALEMAO);
         cachorro1.setIdade(1);
 
         Endereco endereco2 = new Endereco();
@@ -37,7 +41,7 @@ public class TestPetShop{
 
         Cachorro cachorro2 = new Cachorro(dono2);
         cachorro2.setNome("Eddie");
-        cachorro2.setRaca("Caramelo");
+        cachorro2.setRaca(EnumRacaCachorro.PIT_PULL);
         cachorro2.setIdade(15);
         cachorro2.setEstaDoente(true);
 
@@ -51,23 +55,43 @@ public class TestPetShop{
 
         Cachorro cachorro3 = new Cachorro(dono3);
         cachorro3.setNome("Bob");
-        cachorro3.setRaca("Pastor Alemao");
+        cachorro3.setRaca(EnumRacaCachorro.PASTOR_ALEMAO);
         cachorro3.setIdade(10);
         cachorro3.setEstaDoente(true);
 
         Cachorro cachorro4 = new Cachorro(dono3);
         cachorro4.setNome("Toro");
-        cachorro4.setRaca("Rotwhaer");
+        cachorro4.setRaca(EnumRacaCachorro.VIRA_LATA);
         cachorro4.setIdade(10);
         cachorro4.setEstaDoente(true);
+        cachorro4.setTipoAnimal(TipoAnimalEnum.CACHORRO);
 
-        CachorroRepository repository1 = new CachorroRepository();
+        AnimalRepository repository1 = new AnimalRepository();
         repository1.cadastra(cachorro1);
         repository1.cadastra(cachorro2);
         repository1.cadastra(cachorro3);
         repository1.cadastra(cachorro4);
 
-        repository1.imprimeCachorrosCadastrados();
+        repository1.imprimeAnimaisCadastrados();
+
+        System.out.println("-----------CADASTRO DOS GATOS----------------");
+
+        Gato gato = new Gato(dono3);
+        gato.setNome("Zeus");
+        gato.setIdade(8);
+        gato.setRaca(EnumRacaGato.SIAMES);
+        gato.setTipoAnimal(TipoAnimalEnum.GATO);
+
+        Gato gato2 = new Gato(dono3);
+        gato2.setNome("Nillo");
+        gato2.setIdade(3);
+        gato2.setRaca(EnumRacaGato.VIRA_LATA_JAPONES);
+        gato2.setTipoAnimal(TipoAnimalEnum.GATO);
+
+        repository1.cadastra(gato);
+        repository1.cadastra(gato2);
+
+        repository1.imprimeAnimaisCadastrados();
 
         Internacoes internacoes  = new Internacoes();
         internacoes.internar(cachorro2);

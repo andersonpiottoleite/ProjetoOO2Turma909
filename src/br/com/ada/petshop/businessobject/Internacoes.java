@@ -4,6 +4,7 @@ import br.com.ada.petshop.modelo.Cachorro;
 
 import java.util.Objects;
 
+//TODO permitir cadastro de outros animais, como Gato, para isso poder ser usado o polimorfismo com a classe Animal
 public class Internacoes {
 
     private Cachorro[] cachorrosInternados = new Cachorro[10];

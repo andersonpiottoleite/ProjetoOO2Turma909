@@ -3,5 +3,6 @@ package br.com.ada.petshop.enumeracao;
 public enum EnumRacaGato {
 
     SIAMES,
-    MAINECONN
+    MAINECONN,
+    VIRA_LATA_JAPONES
 }
