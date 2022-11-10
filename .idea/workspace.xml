@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="melhorias com heranca e polimorfismo usando a classe Animal, conceitos basicos de colections">
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/AditivoDeContrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Assinadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Assinadora2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Classe1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Classe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Contrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/TesteAssinadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/UltimoAditivoContrato.java" afterDir="false" />
+    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/Internacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/Internacoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/AnimalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/AnimalRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +151,7 @@
       <workItem from="1667599060494" duration="16022000" />
       <workItem from="1667842714301" duration="3349000" />
       <workItem from="1667857202261" duration="13194000" />
-      <workItem from="1668031491726" duration="10719000" />
+      <workItem from="1668031491726" duration="11636000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -255,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667871122232</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces">
+      <created>1668043024737</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668043024737</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +278,8 @@
     <MESSAGE value="exemplos de heranca e polimorfismo" />
     <MESSAGE value="comentarios para ajudar no entendimento do static" />
     <MESSAGE value="melhorias com heranca e polimorfismo usando a classe Animal, conceitos basicos de colections" />
-    <option name="LAST_COMMIT_MESSAGE" value="melhorias com heranca e polimorfismo usando a classe Animal, conceitos basicos de colections" />
+    <MESSAGE value="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

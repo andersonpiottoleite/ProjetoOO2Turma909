@@ -167,6 +167,13 @@ class ClasseTeste {
         this.name = name;
     }
 
+    /*
+    equals e hashCode são usados pelo:
+    contains, para ver se o objeto já existe na coleção
+    add, no caso do Set, para ver se o objeto já existe na coleção, se sim, não adiciona
+    Detalhe: Se equals e hashCode não forem sobrescritos, o criterio de igualdade será o endereço de memória
+    Em nosso exemplo definimos que name será o critério de avaliação
+     */
     @Override
     public boolean equals(Object outro) {
         if(! (outro instanceof ClasseTeste)){
@@ -181,6 +188,9 @@ class ClasseTeste {
         return Objects.hash(name);
     }
 
+    /* polimorfismo no retorno, podemos retornar tanto anto um ArrayList quanto um LinkedList
+       pois ambos implementam a interface List
+     */
     public List getList(){
         return new ArrayList();
         //return new LinkedList();
