@@ -3,12 +3,9 @@ package br.com.ada.petshop.teste;
 import br.com.ada.petshop.enumeracao.EnumRacaCachorro;
 import br.com.ada.petshop.enumeracao.EnumRacaGato;
 import br.com.ada.petshop.enumeracao.TipoAnimalEnum;
-import br.com.ada.petshop.modelo.Gato;
+import br.com.ada.petshop.modelo.*;
 import br.com.ada.petshop.repository.AnimalRepository;
 import br.com.ada.petshop.businessobject.Internacoes;
-import br.com.ada.petshop.modelo.Cachorro;
-import br.com.ada.petshop.modelo.Dono;
-import br.com.ada.petshop.modelo.Endereco;
 
 public class TestPetShop{
 
@@ -96,7 +93,9 @@ public class TestPetShop{
         Internacoes internacoes  = new Internacoes();
         internacoes.internar(cachorro2);
         internacoes.internar(cachorro3);
+        internacoes.internar(gato2);
 
         internacoes.mostraCachorrosInternados();
+
     }
 }

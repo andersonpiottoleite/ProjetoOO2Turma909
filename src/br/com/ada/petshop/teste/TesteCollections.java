@@ -1,13 +1,8 @@
 package br.com.ada.petshop.teste;
 
-import br.com.ada.petshop.modelo.Cachorro;
-import br.com.ada.petshop.modelo.Dono;
-import br.com.ada.petshop.modelo.Endereco;
+import br.com.ada.petshop.modelo.*;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class TesteCollections {
 
@@ -21,7 +16,7 @@ public class TesteCollections {
         }*/
 
         // Con List (que é uma Collection) podemos trabalhar com coleções de forma dinamica
-        List<Cachorro> listaCachorro = new ArrayList();
+        List<Cachorro> listaCachorro = new LinkedList<>();
 
         // metodo add, adiciona cachorro
         listaCachorro.add(criaCachorro());
@@ -77,6 +72,12 @@ public class TesteCollections {
         boolean adicionouOSegundo = setS.add("Palavra 2");
         boolean adicionouOTerceiro = setS.add("Palavra 2");
 
+        if (setS.add("Palavra 2")){
+            System.out.println("Adicionou");
+        } else {
+            System.out.println("Não adicionou");
+        }
+
         System.out.println(adicionouOPrimeiro);
         System.out.println(adicionouOSegundo);
         System.out.println(adicionouOTerceiro);
@@ -90,6 +91,49 @@ public class TesteCollections {
         // metodo clear limpa a lista
         listS.clear();
         System.out.println(listS.size());
+
+        System.out.println(setS.contains("Palavra 4"));
+
+        Set<ClasseTeste> setClasseTeste = new HashSet<>();
+
+        ClasseTeste classeTeste = new ClasseTeste();
+        classeTeste.setId(1);
+        classeTeste.setName("Teste 1");
+
+        setClasseTeste.add(classeTeste);
+
+        ClasseTeste classeTeste2 = new ClasseTeste();
+        classeTeste2.setId(1);
+        classeTeste2.setName("Teste 2");
+
+        setClasseTeste.add(classeTeste2);
+
+        System.out.println(setClasseTeste.size());
+
+        //System.out.println(setClasseTeste.contains(classeTeste2));
+
+        List<Cachorro> l = new ArrayList<>();
+        Map<Integer, String> mapCaes = new HashMap<>();
+
+        mapCaes.put(classeTeste2.getId(), "Meu objeto 1");
+        mapCaes.put(2, "Meu objeto 2");
+
+        System.out.println(mapCaes);
+
+        mapCaes.put(2, "Meu objeto 3");
+
+        System.out.println(mapCaes);
+
+        String retorno = mapCaes.get(2);
+        System.out.println(retorno);
+
+        Map<Integer, Cachorro> mapCaes2 = new HashMap<>();
+
+        Cachorro cachorro1 = criaCachorro();
+        Cachorro cachorro2 = criaCachorro();
+
+        mapCaes2.put(classeTeste2.getId(), cachorro1);
+        mapCaes2.put(-10, cachorro2);
     }
 
 
@@ -98,5 +142,47 @@ public class TesteCollections {
         Dono dono = new Dono("jose", endereco);
         Cachorro cachorro = new Cachorro(dono);
         return cachorro;
+    }
+}
+
+
+class ClasseTeste {
+
+    private int id;
+    private String name;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object outro) {
+        if(! (outro instanceof ClasseTeste)){
+            return false;
+        }
+        ClasseTeste outroTeste = (ClasseTeste) outro;
+        return this.getName().equals(outroTeste.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
+    }
+
+    public List getList(){
+        return new ArrayList();
+        //return new LinkedList();
     }
 }
