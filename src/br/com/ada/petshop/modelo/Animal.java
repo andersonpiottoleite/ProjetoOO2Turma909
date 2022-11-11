@@ -10,7 +10,7 @@ public abstract class Animal {
 
     private String nome;
     private int idade;
-    private boolean estaDoente;
+
 
     // composição, um cachorro é composto por um dono
     private Dono dono;
@@ -29,9 +29,6 @@ public abstract class Animal {
 
     // metodos de configura??o - setam os valores - setters dos atributos
 
-    public void setEstaDoente(boolean estaDoente) {
-        this.estaDoente = estaDoente;
-    }
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -62,9 +59,6 @@ public abstract class Animal {
 
     // metodos de consulta - consultam os valores dos atributos
 
-    public boolean isEstaDoente() {
-        return estaDoente;
-    }
 
     public String getNome() {
         return nome;
@@ -96,7 +90,6 @@ public abstract class Animal {
                 ", tipoAnimal=" + tipoAnimal +
                 ", nome='" + nome + '\'' +
                 ", idade=" + idade +
-                ", estaDoente=" + estaDoente +
                 ", dono=" + dono +
                 '}';
     }

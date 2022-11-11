@@ -2,7 +2,9 @@ package br.com.ada.petshop.modelo;
 
 import br.com.ada.petshop.enumeracao.EnumRacaCachorro;
 
-public class Cachorro extends Animal{
+public class Cachorro extends Animal implements Internavel{
+
+    private boolean estaDoente;
 
     private EnumRacaCachorro raca;
 
@@ -15,6 +17,10 @@ public class Cachorro extends Animal{
         return raca;
     }
 
+    public void setEstaDoente(boolean estaDoente) {
+        this.estaDoente = estaDoente;
+    }
+
     public void setRaca(EnumRacaCachorro raca) {
         this.raca = raca;
     }
@@ -23,5 +29,10 @@ public class Cachorro extends Animal{
         return "Cachorro: " +
                 "raca=" + raca +
                 super.toString();
+    }
+
+    @Override
+    public boolean estaDoente() {
+        return this.estaDoente;
     }
 }

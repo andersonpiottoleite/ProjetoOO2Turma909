@@ -90,10 +90,20 @@ public class TestPetShop{
 
         repository1.imprimeAnimaisCadastrados();
 
+        Passaro passaro = new Passaro(dono3);
+        passaro.setIdade(1);
+        passaro.setTipoAnimal(TipoAnimalEnum.PASSARO);
+
+        gato2.estaDoente();
+
+        Coelho coelho = new Coelho(dono3);
+
         Internacoes internacoes  = new Internacoes();
         internacoes.internar(cachorro2);
         internacoes.internar(cachorro3);
         internacoes.internar(gato2);
+        internacoes.internar(coelho);
+        //internacoes.internar(passaro); não é possivel, pois pasaro não asiniu o contrato de internavel, não implemento ua interface
 
         internacoes.mostraCachorrosInternados();
 

@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces">
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/autenticacao/AutenticacaoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Atendente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Veterinario.java" afterDir="false" />
+    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="preparacao para exercicio de interface">
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Coelho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Internavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Passaro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Dono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Dono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/autenticacao/AutenticacaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/autenticacao/AutenticacaoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/Internacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/Internacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/enumeracao/TipoAnimalEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/enumeracao/TipoAnimalEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Assinadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Assinadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Classe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Classe1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +165,7 @@
       <workItem from="1667842714301" duration="3349000" />
       <workItem from="1667857202261" duration="13194000" />
       <workItem from="1668031491726" duration="12443000" />
-      <workItem from="1668197814325" duration="3231000" />
+      <workItem from="1668197814325" duration="8318000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -264,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668045030150</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="preparacao para exercicio de interface">
+      <created>1668201264741</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668201264741</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,14 +307,15 @@
     <MESSAGE value="comentarios para ajudar no entendimento do static" />
     <MESSAGE value="melhorias com heranca e polimorfismo usando a classe Animal, conceitos basicos de colections" />
     <MESSAGE value="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces" />
+    <MESSAGE value="preparacao para exercicio de interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="preparacao para exercicio de interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/Internacoes.java</url>
-          <line>24</line>
+          <line>27</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

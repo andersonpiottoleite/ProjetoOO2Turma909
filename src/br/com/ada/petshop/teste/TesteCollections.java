@@ -16,7 +16,7 @@ public class TesteCollections {
         }*/
 
         // Con List (que é uma Collection) podemos trabalhar com coleções de forma dinamica
-        List<Cachorro> listaCachorro = new LinkedList<>();
+        List<Cachorro> listaCachorro = new ArrayList<>();
 
         // metodo add, adiciona cachorro
         listaCachorro.add(criaCachorro());

@@ -6,7 +6,8 @@ public class AutenticacaoRepository {
 
     /*
     Somente Atendente e Veterinario devem autenticar em nosso PetShop
-    mas um dono (que tbm herda de de Pessoa), também pode ser informado aqui :(
+    mas um dono (que tbm herda de de Pessoa), também pode ser informado aqui,
+    não é isso que queremos :(
 
     Resolva essa situação implementando uma interface...
 

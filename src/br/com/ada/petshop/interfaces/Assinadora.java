@@ -50,11 +50,11 @@ public class Assinadora extends Classe1
 
     @Override
     public void novaClausulaDoAditivo() {
-
+        System.out.println("logica aqui");
     }
 
     @Override
     public void ultimaClausulaEuPrometo() {
-
+        System.out.println("logica aqui");
     }
 }
