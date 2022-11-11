@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces">
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/autenticacao/AutenticacaoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Atendente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Veterinario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Dono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Dono.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.ada.petshop.modelo" />
       <recent name="br.com.ada.petshop.interfaces" />
       <recent name="br.com.ada.petshop.enumeracao" />
     </key>
@@ -151,7 +156,8 @@
       <workItem from="1667599060494" duration="16022000" />
       <workItem from="1667842714301" duration="3349000" />
       <workItem from="1667857202261" duration="13194000" />
-      <workItem from="1668031491726" duration="11636000" />
+      <workItem from="1668031491726" duration="12443000" />
+      <workItem from="1668197814325" duration="3231000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -251,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668043024737</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces">
+      <created>1668045030150</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668045030150</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
