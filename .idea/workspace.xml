@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="preparacao para exercicio de interface">
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Coelho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Internavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Passaro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/autenticacao/AutenticacaoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/autenticacao/AutenticacaoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/Internacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/Internacoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/enumeracao/TipoAnimalEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/enumeracao/TipoAnimalEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Assinadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Assinadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Classe1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/interfaces/Classe1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Cachorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Internavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Internavel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +153,7 @@
       <workItem from="1667842714301" duration="3349000" />
       <workItem from="1667857202261" duration="13194000" />
       <workItem from="1668031491726" duration="12443000" />
-      <workItem from="1668197814325" duration="8318000" />
+      <workItem from="1668197814325" duration="12204000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -279,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668201264741</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="preparacao para exercicio de interface">
+      <created>1668208020762</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668208020762</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
