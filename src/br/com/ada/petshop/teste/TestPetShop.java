@@ -103,7 +103,8 @@ public class TestPetShop{
         internacoes.internar(cachorro3);
         internacoes.internar(gato2);
         internacoes.internar(coelho);
-        //internacoes.internar(passaro); não é possivel, pois pasaro não asiniu o contrato de internavel, não implemento ua interface
+        //internacoes.internar(passaro); //não é possivel,
+        // pois pasaro não assinou o contrato de internavel, não implemento sua interface
 
         internacoes.mostraCachorrosInternados();
 

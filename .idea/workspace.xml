@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="preparacao para exercicio de interface">
+    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="metodo default">
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/exemplo/generics/Impressora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/exemplo/generics/TesteGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/exemplo/generics/TesteImpressora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Internavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Internavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TestPetShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,7 @@
       <recent name="br.com.ada.petshop.enumeracao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.br.com.ada.petshop.teste.TestPetShop">
+  <component name="RunManager" selected="Application.TesteImpressora">
     <configuration name="TesteAssinadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.interfaces.TesteAssinadora" />
       <module name="ProjetoOO2Turma909" />
@@ -86,12 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteHerancaPolimorfismo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.heranca.TesteHerancaPolimorfismo" />
+    <configuration name="TesteGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.exemplo.generics.TesteGenerics" />
       <module name="ProjetoOO2Turma909" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.petshop.heranca.*" />
+          <option name="PATTERN" value="br.com.ada.petshop.exemplo.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteImpressora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.exemplo.generics.TesteImpressora" />
+      <module name="ProjetoOO2Turma909" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ada.petshop.exemplo.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.ada.petshop.teste.TesteDinamicoPetShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.teste.TesteDinamicoPetShop" />
-      <module name="ProjetoOO2Turma909" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.ada.petshop.teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteImpressora" />
+        <item itemvalue="Application.TesteGenerics" />
         <item itemvalue="Application.br.com.ada.petshop.teste.TestPetShop" />
         <item itemvalue="Application.TesteAssinadora" />
         <item itemvalue="Application.TesteCollections" />
-        <item itemvalue="Application.br.com.ada.petshop.teste.TesteDinamicoPetShop" />
-        <item itemvalue="Application.TesteHerancaPolimorfismo" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +156,9 @@
       <workItem from="1667842714301" duration="3349000" />
       <workItem from="1667857202261" duration="13194000" />
       <workItem from="1668031491726" duration="12443000" />
-      <workItem from="1668197814325" duration="12204000" />
+      <workItem from="1668197814325" duration="12903000" />
+      <workItem from="1668526071787" duration="413000" />
+      <workItem from="1668635455169" duration="7582000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -274,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668208020762</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="metodo default">
+      <created>1668217194233</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668217194233</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +315,8 @@
     <MESSAGE value="melhorias com heranca e polimorfismo usando a classe Animal, conceitos basicos de colections" />
     <MESSAGE value="alteracoes para uso de colecoes em cadastro de animais e internacoes, mais inicio de interfaces" />
     <MESSAGE value="preparacao para exercicio de interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="preparacao para exercicio de interface" />
+    <MESSAGE value="metodo default" />
+    <option name="LAST_COMMIT_MESSAGE" value="metodo default" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -317,6 +330,16 @@
           <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCollections.java</url>
           <line>96</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/exemplo/generics/TesteGenerics.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/exemplo/generics/TesteGenerics.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
