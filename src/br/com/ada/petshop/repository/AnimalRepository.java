@@ -44,6 +44,9 @@ public class AnimalRepository {
 
     public void limpaCadastro(){
         System.out.println("_____________LIMPANDO O CADASTRO______________");
+        if(1 == 1) {
+            throw new IllegalArgumentException();
+        }
         this.animaisCadastrados.clear();
     }
 
