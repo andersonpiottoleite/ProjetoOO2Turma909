@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="generics">
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/Relatorios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/TesteRelatorios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CalculadoraDescontoPrecoServico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/enumeracao/TipoPagamentoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/enumeracao/TipoServicoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/AntiPulga.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Pagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Racao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Servico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/ConexaoBancoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/ConexaoOracle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteCalculoServico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteConexao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteProdutos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/AnimalRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/AnimalRepository.java" afterDir="false" />
     </list>
@@ -18,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -55,32 +66,23 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.ada.petshop.enumeracao" />
+      <recent name="br.com.ada.petshop.modelo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.ada.petshop.modelo" />
       <recent name="br.com.ada.petshop.interfaces" />
       <recent name="br.com.ada.petshop.enumeracao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.br.com.ada.petshop.teste.TestPetShop">
-    <configuration name="TesteAssinadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.interfaces.TesteAssinadora" />
+  <component name="RunManager" selected="Application.TesteProdutos">
+    <configuration name="TesteCalculoServico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.teste.TesteCalculoServico" />
       <module name="ProjetoOO2Turma909" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ada.petshop.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.exemplo.generics.TesteGenerics" />
-      <module name="ProjetoOO2Turma909" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.ada.petshop.exemplo.generics.*" />
+          <option name="PATTERN" value="br.com.ada.petshop.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +96,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.ada.petshop.exemplo.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteProdutos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ada.petshop.teste.TesteProdutos" />
+      <module name="ProjetoOO2Turma909" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ada.petshop.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteProdutos" />
+        <item itemvalue="Application.TesteCalculoServico" />
         <item itemvalue="Application.br.com.ada.petshop.teste.TestPetShop" />
-        <item itemvalue="Application.TesteRelatorios" />
+        <item itemvalue="Application.br.com.ada.petshop.businessobject.TesteRelatorios" />
         <item itemvalue="Application.TesteImpressora" />
-        <item itemvalue="Application.TesteGenerics" />
-        <item itemvalue="Application.TesteAssinadora" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +172,8 @@
       <workItem from="1668031491726" duration="12443000" />
       <workItem from="1668197814325" duration="12903000" />
       <workItem from="1668526071787" duration="413000" />
-      <workItem from="1668635455169" duration="13365000" />
+      <workItem from="1668635455169" duration="13986000" />
+      <workItem from="1668779988992" duration="6783000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -292,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668643122738</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="generics">
+      <created>1668651088892</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668651088892</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
