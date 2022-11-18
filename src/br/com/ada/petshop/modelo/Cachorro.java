@@ -2,6 +2,15 @@ package br.com.ada.petshop.modelo;
 
 import br.com.ada.petshop.enumeracao.EnumRacaCachorro;
 
+/**
+ * Java doc:
+ *
+ *  Essa classe representa um cachorro
+ * @author Anderson Piotto
+ * @since 18/11/2022
+ * @version 1.0.0
+ *
+ */
 public class Cachorro extends Animal implements Internavel{
 
     private boolean estaDoente;
@@ -13,6 +22,10 @@ public class Cachorro extends Animal implements Internavel{
         super(dono);
     }
 
+    /** obtem a raca
+     *
+     * @return EnumRacaCachorro raca
+     */
     public EnumRacaCachorro getRaca() {
         return raca;
     }

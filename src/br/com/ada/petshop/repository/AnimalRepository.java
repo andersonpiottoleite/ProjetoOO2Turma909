@@ -1,5 +1,6 @@
 package br.com.ada.petshop.repository;
 
+import br.com.ada.petshop.businessobject.EmailService;
 import br.com.ada.petshop.modelo.Animal;
 import br.com.ada.petshop.modelo.Dono;
 
@@ -16,12 +17,14 @@ public class AnimalRepository {
     // contador estatico para atribuir os ids...
     private static int sequence = 1;
 
+
     public void cadastra(Animal animal){
         setId(animal);
 
         if (Objects.nonNull(animal) && Objects.nonNull(animal.getDono())) {
             animaisCadastrados.add(animal);
-            enviaEmailDeBoasVindas(animal);
+            EmailService emailService = new EmailService();
+            emailService.enviaEmailDeBoasVindas(animal);
         } else {
             System.err.println("Animal nulo ou sem Dono!");
         }
@@ -30,12 +33,12 @@ public class AnimalRepository {
     // Esse é o melhor lugar para ter esse metodo de Email?
     // Vamos aplicar o S do SOLID?
     // S - SRP - Single-Responsibility Principle - Principio da Responsabilidade única?
-    private void enviaEmailDeBoasVindas(Animal animal){
+    /*private void enviaEmailDeBoasVindas(Animal animal){
         System.out.println("Sr. "+ animal.getDono().getNome() +" Bem vindo nosso PetShop");
         System.out.println("Vamos cuidar muito bem do "+ animal.getNome());
         System.out.println("Aqui vc encontra nossos serviços e produtos:");
         System.out.println("www.petshop.com.br");
-    }
+    }*/
 
     private void setId(Animal animal) {
         animal.setId(sequence);

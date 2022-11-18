@@ -1,6 +1,6 @@
 package br.com.ada.petshop.teste;
 
-import br.com.ada.petshop.businessobject.CalculadoraDescontoPrecoServico;
+import br.com.ada.petshop.businessobject.*;
 import br.com.ada.petshop.enumeracao.TipoPagamentoEnum;
 import br.com.ada.petshop.enumeracao.TipoServicoEnum;
 import br.com.ada.petshop.modelo.Pagamento;
@@ -21,20 +21,35 @@ public class TesteCalculoServico {
         banho.setValor(new BigDecimal(50.00));
         banho.setTipoServico(TipoServicoEnum.BANHO);
 
-        Pagamento pagamentoDebito = new Pagamento();
-        pagamentoDebito.setTipoPagamento(TipoPagamentoEnum.DEBITO);
+        Servico banho2 = new Servico();
+        banho2.setValor(new BigDecimal(50.00));
+        banho2.setTipoServico(TipoServicoEnum.BANHO);
 
-        Pagamento pagamentoCredito = new Pagamento();
-        pagamentoCredito.setTipoPagamento(TipoPagamentoEnum.CREDITO);
+        Servico banho3 = new Servico();
+        banho3.setValor(new BigDecimal(60.00));
+        banho3.setTipoServico(TipoServicoEnum.BANHO);
 
         CalculadoraDescontoPrecoServico calc = new CalculadoraDescontoPrecoServico();
+
         System.out.println("Valor anterior tosa: "+getValorFormatado(tosa.getValor()));
-        calc.aplicaDesconto(tosa, pagamentoCredito);
+        DescontoCredito descontoCredito = new DescontoCredito();
+        calc.aplicaDesconto(tosa, descontoCredito);
         System.out.println("Valor do tosa com desconto: "+getValorFormatado(tosa.getValor()));
 
         System.out.println("Valor anterior banho: "+getValorFormatado(banho.getValor()));
-        calc.aplicaDesconto(banho, pagamentoDebito);
+        DescontoDebito descontoDebito = new DescontoDebito();
+        calc.aplicaDesconto(banho, descontoDebito);
         System.out.println("Valor do banho com desconto: "+ getValorFormatado(banho.getValor()));
+
+        System.out.println("Valor anterior banho: "+getValorFormatado(banho2.getValor()));
+        DescontoPix descontoPix = new DescontoPix();
+        calc.aplicaDesconto(banho2, descontoPix);
+        System.out.println("Valor do banho com desconto com pix: "+ getValorFormatado(banho2.getValor()));
+
+        System.out.println("Valor anterior banho: "+getValorFormatado(banho3.getValor()));
+        DescontoTED descontoTED = new DescontoTED();
+        calc.aplicaDesconto(banho3, descontoTED);
+        System.out.println("Valor do banho com desconto com TED: "+ getValorFormatado(banho3.getValor()));
     }
 
     private static String getValorFormatado(BigDecimal valor){

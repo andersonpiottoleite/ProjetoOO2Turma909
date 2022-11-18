@@ -16,10 +16,14 @@ public class TesteImpressora {
         impressora.imprime(true);
         impressora.imprime(10.0);
 
+
+
         Impressora<String> impressoraSoDeTexto = new Impressora<>();
         impressoraSoDeTexto.imprime("Novo Texto");
 
         Impressora<Integer> impressoraSoDeNumeros = new Impressora<>();
         impressoraSoDeNumeros.imprime(2500);
+
+        Impressora.metodo2("TESTE");
     }
 }

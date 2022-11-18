@@ -20,4 +20,8 @@ public class Impressora<T> { // <T extends Animal> -> é possivel limitar o uso à
         System.out.println("########### IMPRIMINDO FOLHA ###########");
         System.out.println(t);
     }
+
+    public static<T> void metodo2(T t){
+        System.out.println("Usando metodo estatico: "+t);
+    }
 }
