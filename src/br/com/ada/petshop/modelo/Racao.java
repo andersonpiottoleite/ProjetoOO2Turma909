@@ -26,6 +26,7 @@ public class Racao implements Produto{
     @Override
     public void setBula(String bula) {
         // faço nada?
+        throw  new IllegalStateException("Não é possivel setar bula");
     }
 
     @Override

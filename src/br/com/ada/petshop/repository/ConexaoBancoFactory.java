@@ -6,13 +6,18 @@ public class ConexaoBancoFactory {
     // nunca vai mudar, por exemplo para MySQL
     // podemos aplicar aqui o D do SOLID?
     // D - DIP - Dependency Inversion Principle - Principio de inversão de dependência ?
-    private ConexaoOracle conexaoOracle;
+    private Conexao conexao;
 
-    public ConexaoBancoFactory(){
-        this.conexaoOracle = new ConexaoOracle();
+    // IC - Inversion Control = Inversão de controle
+    public ConexaoBancoFactory(Conexao conexao){
+        //this.conexaoOracle = new ConexaoOracle();
+        this.conexao = conexao;
     }
 
-    public ConexaoOracle getConexao() {
-        return conexaoOracle;
+    public ConexaoBancoFactory(){
+    }
+
+    public Conexao getConexao() {
+        return conexao;
     }
 }

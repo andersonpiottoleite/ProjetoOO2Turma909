@@ -24,6 +24,6 @@ public class TesteImpressora {
         Impressora<Integer> impressoraSoDeNumeros = new Impressora<>();
         impressoraSoDeNumeros.imprime(2500);
 
-        Impressora.metodo2("TESTE");
+        Impressora.metodo2("br.com.ada.petshop.teste.TESTE");
     }
 }
