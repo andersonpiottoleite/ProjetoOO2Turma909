@@ -1,6 +1,6 @@
 package br.com.ada.petshop.modelo;
 
-public class AntiPulga implements Produto{
+public class AntiPulga implements ProdutoComBula {
 
     private String fornecedor;
     private String bula;

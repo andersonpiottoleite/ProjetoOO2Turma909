@@ -4,6 +4,8 @@ import br.com.ada.petshop.modelo.Animal;
 
 import java.util.List;
 
+// classe com a unica responsabilidade de enviar email
+// aqui foi aplicado o principio de responsabilidade unica do solid
 public class EmailService {
 
     public void enviaEmailDeBoasVindas(Animal animal){

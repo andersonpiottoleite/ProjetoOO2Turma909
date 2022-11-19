@@ -13,6 +13,7 @@ public class CalculadoraDescontoPrecoServico {
     // podendo gerar bugs ao sofrer alterações
     // Podemos aplicar o O do SOLID?
     // O - OCP - Open-Closed Principle - Principio aberto e fechado?
+
     /*public void aplicaDesconto(Servico servico, Pagamento pagamento){
 
         if (TipoPagamentoEnum.CREDITO.equals(pagamento.getTipoPagamento())){
@@ -27,6 +28,11 @@ public class CalculadoraDescontoPrecoServico {
         }
     }*/
 
+    // aqui nesse metodo receberemos qualquer classe que implemente a interface AplicadorDesconto
+    // será chamada a lógica do aplicador de desconto que chegar aqui como parametro
+    // não preciso mais realizar alterações aqui (fechado para alteração)
+    // independente de qual desconto seja criado futuramente, basta que implemente a interface AplicadorDesconto
+    // Ex: Classes DescontoCredito, DescontoPix, etc
     public void aplicaDesconto(Servico servico, AplicadorDesconto aplicadorDesconto){
         aplicadorDesconto.aplicaDesconto(servico);
     }

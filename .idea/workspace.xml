@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="S e O do SOLID">
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/Conexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/ConexaoMySQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/ConexaoPostgree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteDEUBOM.java" afterDir="false" />
+    <list default="true" id="082d02f8-0396-43ae-96ff-03f9fba1c0eb" name="Changes" comment="I L e D do SOLID">
+      <change afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/ProdutoComBula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/exemplo/generics/TesteImpressora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/exemplo/generics/TesteImpressora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CalculadoraDescontoPrecoServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CalculadoraDescontoPrecoServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/AntiPulga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/AntiPulga.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/ProdutoSemBula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Racao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/modelo/Racao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/ConexaoBancoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/ConexaoBancoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/ConexaoOracle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/repository/ConexaoOracle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteConexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteConexao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteProdutos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ada/petshop/teste/TesteProdutos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +68,9 @@
       <recent name="br.com.ada.petshop.teste" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.ada.petshop.modelo" />
       <recent name="br.com.ada.petshop.repository" />
       <recent name="br.com.ada.petshop.businessobject" />
-      <recent name="br.com.ada.petshop.modelo" />
       <recent name="br.com.ada.petshop.interfaces" />
       <recent name="br.com.ada.petshop.enumeracao" />
     </key>
@@ -175,7 +173,7 @@
       <workItem from="1668526071787" duration="413000" />
       <workItem from="1668635455169" duration="13986000" />
       <workItem from="1668779988992" duration="7975000" />
-      <workItem from="1668809008654" duration="10677000" />
+      <workItem from="1668809008654" duration="11431000" />
     </task>
     <task id="LOCAL-00001" summary="codigo inicial do petshop">
       <created>1667006927797</created>
@@ -338,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668815088294</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="I L e D do SOLID">
+      <created>1668822811640</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668822811640</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +376,8 @@
     <MESSAGE value="generics" />
     <MESSAGE value="preparacao para aplicacao do solid" />
     <MESSAGE value="S e O do SOLID" />
-    <option name="LAST_COMMIT_MESSAGE" value="S e O do SOLID" />
+    <MESSAGE value="I L e D do SOLID" />
+    <option name="LAST_COMMIT_MESSAGE" value="I L e D do SOLID" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -428,7 +434,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/businessobject/CalculadoraDescontoPrecoServico.java</url>
-          <line>30</line>
+          <line>36</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -443,7 +449,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/br/com/ada/petshop/repository/ConexaoBancoFactory.java</url>
-          <line>11</line>
+          <line>13</line>
           <properties class="br.com.ada.petshop.repository.ConexaoBancoFactory" method="&lt;init&gt;">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

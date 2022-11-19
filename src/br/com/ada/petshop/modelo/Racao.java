@@ -1,6 +1,6 @@
 package br.com.ada.petshop.modelo;
 
-public class Racao implements Produto{
+public class Racao implements ProdutoSemBula {
 
     private String fornecedor;
 
@@ -12,21 +12,6 @@ public class Racao implements Produto{
     @Override
     public void setFornecedor(String fornecedor) {
         this.fornecedor = fornecedor;
-    }
-
-    @Override
-    public String getBula() {
-        return null; // sempre null, será que precisa desse metodo aqui?
-
-        // Estamos quebrando o L do SOLID - LSP - Liskov Substitution Principle - Principio de substituição de Liskov ?
-        // Podemos aplicar o I do SOLID?
-        // I - ISP - Interface Segregation Principle - Principio da segregação de interface?
-    }
-
-    @Override
-    public void setBula(String bula) {
-        // faço nada?
-        throw  new IllegalStateException("Não é possivel setar bula");
     }
 
     @Override

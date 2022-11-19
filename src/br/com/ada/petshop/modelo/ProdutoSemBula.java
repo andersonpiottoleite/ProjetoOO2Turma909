@@ -1,12 +1,9 @@
 package br.com.ada.petshop.modelo;
 
-public interface Produto {
+// segregação de interface (I do SOLID)
+public interface ProdutoSemBula {
 
     String getFornecedor();
 
     void setFornecedor(String fornecedor);
-
-    String getBula();
-
-    void setBula(String bula);
 }

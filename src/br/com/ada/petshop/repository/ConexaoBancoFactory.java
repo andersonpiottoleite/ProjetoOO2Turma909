@@ -9,8 +9,10 @@ public class ConexaoBancoFactory {
     private Conexao conexao;
 
     // IC - Inversion Control = Inversão de controle
+    // recebendo a interface Conexao no construtor, ganhamos flexibilidade,
+    // pois podemos receber qualquer conexao que implemente essa interface
     public ConexaoBancoFactory(Conexao conexao){
-        //this.conexaoOracle = new ConexaoOracle();
+        //this.conexaoOracle = new ConexaoOracle(); // não precisamos carregar um instancia da interface de ConexaoOracle quando instanciarmos uma ConexaoBancoFactory
         this.conexao = conexao;
     }
 
