@@ -41,7 +41,7 @@ public class EnderecoBuilder {
     }
 
     public Endereco build(){
-        Endereco enderecoCriado = new Endereco(id,rua, numero, cep, bairro, estado);
+        Endereco enderecoCriado = new Endereco(id, rua, numero, cep, bairro, estado);
         return enderecoCriado;
     }
 }
