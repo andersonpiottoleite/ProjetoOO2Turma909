@@ -1,8 +1,7 @@
 package br.com.ada.petshop.repository;
 
 import br.com.ada.petshop.businessobject.EmailService;
-import br.com.ada.petshop.modelo.Animal;
-import br.com.ada.petshop.modelo.Dono;
+import br.com.ada.petshop.modelo.animais.Animal;
 
 import java.util.ArrayList;
 import java.util.List;

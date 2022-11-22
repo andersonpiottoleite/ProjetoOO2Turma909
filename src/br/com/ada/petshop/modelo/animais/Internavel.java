@@ -1,4 +1,4 @@
-package br.com.ada.petshop.modelo;
+package br.com.ada.petshop.modelo.animais;
 
 public interface Internavel {
 

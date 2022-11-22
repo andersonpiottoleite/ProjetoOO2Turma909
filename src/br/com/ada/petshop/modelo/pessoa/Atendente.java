@@ -1,6 +1,6 @@
-package br.com.ada.petshop.modelo;
+package br.com.ada.petshop.modelo.pessoa;
 
-public class Atendente extends Pessoa{
+public class Atendente extends Pessoa {
 
     public Atendente(String nome, Endereco endereco) {
         super(nome, endereco);

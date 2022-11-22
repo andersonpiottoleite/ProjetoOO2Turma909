@@ -3,9 +3,17 @@ package br.com.ada.petshop.teste;
 import br.com.ada.petshop.enumeracao.EnumRacaCachorro;
 import br.com.ada.petshop.enumeracao.EnumRacaGato;
 import br.com.ada.petshop.enumeracao.TipoAnimalEnum;
-import br.com.ada.petshop.modelo.*;
+import br.com.ada.petshop.exceptions.InternacaoException;
+import br.com.ada.petshop.modelo.animais.Cachorro;
+import br.com.ada.petshop.modelo.animais.Coelho;
+import br.com.ada.petshop.modelo.animais.Gato;
+import br.com.ada.petshop.modelo.animais.Passaro;
+import br.com.ada.petshop.modelo.pessoa.Dono;
+import br.com.ada.petshop.modelo.pessoa.Endereco;
 import br.com.ada.petshop.repository.AnimalRepository;
 import br.com.ada.petshop.businessobject.Internacoes;
+
+import java.util.Scanner;
 
 public class TestPetShop{
 
@@ -101,12 +109,46 @@ public class TestPetShop{
         Internacoes internacoes  = new Internacoes();
         internacoes.internar(cachorro2);
         internacoes.internar(cachorro3);
-        internacoes.internar(gato2);
-        internacoes.internar(coelho);
+
+        try {
+            //internacoes.internar(gato2);
+        }catch (InternacaoException ex){
+            System.out.println("Ocorreu um erro " + ex.getMessage());
+        } finally {
+            System.out.println("Sempre serei executado, na vitória ou na derrota...");
+        }
+        // conexao com o banco de dados
+        // abrir um conexao
+        Scanner s = new Scanner(System.in);
+        try {
+            //internacoes.internar(coelho);
+        }catch (InternacaoException ex){
+            System.out.println("Ocorreu um erro " + ex.getMessage());
+        } finally {
+            s.close();
+            // fechando a conexao
+            System.out.println("Sempre serei executado, na vitória ou na derrota...");
+        }
+
+
         //internacoes.internar(passaro); //não é possivel,
         // pois pasaro não assinou o contrato de internavel, não implemento sua interface
 
         internacoes.mostraCachorrosInternados();
 
+        metodo();
+
+    }
+
+    public static void metodo(){
+        try{
+            // opção do menu
+            throw new Exception("ERRO");
+        }catch (Exception e) {
+            // mensagem de alerta - informe as opções adequadas
+            System.out.println("mensagem de alerta - informe as opções adequadas");
+            metodo();
+        }
+        // sair feliz
     }
 }

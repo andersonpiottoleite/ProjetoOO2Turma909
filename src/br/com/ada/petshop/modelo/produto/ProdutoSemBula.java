@@ -1,4 +1,4 @@
-package br.com.ada.petshop.modelo;
+package br.com.ada.petshop.modelo.produto;
 
 // segregação de interface (I do SOLID)
 public interface ProdutoSemBula {

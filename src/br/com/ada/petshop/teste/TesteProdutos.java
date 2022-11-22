@@ -1,9 +1,9 @@
 package br.com.ada.petshop.teste;
 
-import br.com.ada.petshop.modelo.AntiPulga;
-import br.com.ada.petshop.modelo.ProdutoComBula;
-import br.com.ada.petshop.modelo.ProdutoSemBula;
-import br.com.ada.petshop.modelo.Racao;
+import br.com.ada.petshop.modelo.produto.AntiPulga;
+import br.com.ada.petshop.modelo.produto.ProdutoComBula;
+import br.com.ada.petshop.modelo.produto.ProdutoSemBula;
+import br.com.ada.petshop.modelo.produto.Racao;
 
 public class TesteProdutos {
 

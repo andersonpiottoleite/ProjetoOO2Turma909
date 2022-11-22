@@ -1,4 +1,4 @@
-package br.com.ada.petshop.modelo;
+package br.com.ada.petshop.modelo.produto;
 
 public class Racao implements ProdutoSemBula {
 

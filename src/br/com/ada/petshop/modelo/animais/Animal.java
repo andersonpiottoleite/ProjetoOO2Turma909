@@ -1,6 +1,7 @@
-package br.com.ada.petshop.modelo;
+package br.com.ada.petshop.modelo.animais;
 
 import br.com.ada.petshop.enumeracao.TipoAnimalEnum;
+import br.com.ada.petshop.modelo.pessoa.Dono;
 
 public abstract class Animal {
 

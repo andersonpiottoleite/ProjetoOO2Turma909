@@ -1,6 +1,12 @@
 package br.com.ada.petshop.businessobject;
 
-import br.com.ada.petshop.modelo.*;
+import br.com.ada.petshop.modelo.animais.Animal;
+import br.com.ada.petshop.modelo.animais.Cachorro;
+import br.com.ada.petshop.modelo.animais.Gato;
+import br.com.ada.petshop.modelo.pessoa.Atendente;
+import br.com.ada.petshop.modelo.pessoa.Dono;
+import br.com.ada.petshop.modelo.pessoa.Endereco;
+import br.com.ada.petshop.modelo.pessoa.Pessoa;
 
 import java.util.ArrayList;
 import java.util.List;

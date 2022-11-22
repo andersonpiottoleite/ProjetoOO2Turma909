@@ -1,4 +1,6 @@
-package br.com.ada.petshop.modelo;
+package br.com.ada.petshop.modelo.animais;
+
+import br.com.ada.petshop.modelo.pessoa.Dono;
 
 public class Coelho extends Animal implements Internavel{
 
@@ -8,6 +10,6 @@ public class Coelho extends Animal implements Internavel{
 
     @Override
     public boolean estaDoente() {
-        return false;
+        return true;
     }
 }

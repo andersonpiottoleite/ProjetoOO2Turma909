@@ -1,4 +1,4 @@
-package br.com.ada.petshop.modelo;
+package br.com.ada.petshop.modelo.servico;
 
 import br.com.ada.petshop.enumeracao.TipoServicoEnum;
 

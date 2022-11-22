@@ -1,4 +1,6 @@
-package br.com.ada.petshop.modelo;
+package br.com.ada.petshop.modelo.pessoa;
+
+import br.com.ada.petshop.modelo.pessoa.Endereco;
 
 public class Pessoa {
 

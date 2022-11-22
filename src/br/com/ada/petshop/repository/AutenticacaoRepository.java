@@ -1,6 +1,6 @@
-package br.com.ada.petshop.autenticacao;
+package br.com.ada.petshop.repository;
 
-import br.com.ada.petshop.modelo.Pessoa;
+import br.com.ada.petshop.modelo.pessoa.Pessoa;
 
 public class AutenticacaoRepository {
 

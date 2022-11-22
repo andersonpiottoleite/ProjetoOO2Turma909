@@ -8,8 +8,9 @@ public class TesteConexao {
         ConexaoOracle conexaoOracle = new ConexaoOracle();
         ConexaoMySQL conexaoMySQL = new ConexaoMySQL();
         ConexaoPostgree conexaoPostgree = new ConexaoPostgree();
+
         //DI - Dependence Injection = Injeção de dependencia
-        ConexaoBancoFactory bancoFactory = new ConexaoBancoFactory(conexaoOracle);
+        ConexaoBancoFactory bancoFactory = new ConexaoBancoFactory(conexaoPostgree);
         Conexao conexao = bancoFactory.getConexao();
         System.out.println(conexao);
     }

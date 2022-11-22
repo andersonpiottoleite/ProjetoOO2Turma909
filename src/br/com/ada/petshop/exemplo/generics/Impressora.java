@@ -1,10 +1,5 @@
 package br.com.ada.petshop.exemplo.generics;
 
-import br.com.ada.petshop.modelo.Animal;
-import br.com.ada.petshop.modelo.Pessoa;
-
-import java.util.List;
-
 // Convenção para o uso de Generics:
 // <> -> operador diamante
 // T -> Type

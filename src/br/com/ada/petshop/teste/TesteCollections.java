@@ -1,6 +1,8 @@
 package br.com.ada.petshop.teste;
 
-import br.com.ada.petshop.modelo.*;
+import br.com.ada.petshop.modelo.animais.Cachorro;
+import br.com.ada.petshop.modelo.pessoa.Dono;
+import br.com.ada.petshop.modelo.pessoa.Endereco;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package br.com.ada.petshop.modelo;
+package br.com.ada.petshop.modelo.pessoa;
 
 public class Endereco {
 
@@ -18,6 +18,20 @@ public class Endereco {
         this.cep = cep;
         this.bairro = bairro;
         this.estado = estado;
+    }
+
+    public Endereco(int id, String rua, String numero, String cep, String bairro, String estado) {
+        metodoComRegra();
+        this.id = id;
+        this.rua = rua;
+        this.numero = numero;
+        this.cep = cep;
+        this.bairro = bairro;
+        this.estado = estado;
+    }
+
+    private void metodoComRegra() {
+        // regra de negocio, uma validação do cep, se é valido
     }
 
     public void setId(int id) {

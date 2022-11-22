@@ -1,9 +1,9 @@
 package br.com.ada.petshop.exemplo.generics;
 
-import br.com.ada.petshop.modelo.Animal;
-import br.com.ada.petshop.modelo.Cachorro;
-import br.com.ada.petshop.modelo.Dono;
-import br.com.ada.petshop.modelo.Endereco;
+import br.com.ada.petshop.modelo.animais.Animal;
+import br.com.ada.petshop.modelo.animais.Cachorro;
+import br.com.ada.petshop.modelo.pessoa.Dono;
+import br.com.ada.petshop.modelo.pessoa.Endereco;
 
 import java.util.ArrayList;
 import java.util.HashMap;
